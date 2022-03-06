@@ -14,6 +14,8 @@
 ```
 
 Click **[here](https://www.roblox.com/library/9025855281/2D-Emitter)** to get the module
+Click **[here]**(https://github.com/alexdev9/2D-Emitter-Particles-Pack) to get the custom particles made by me.
+You also can make your own custom particle, just read the guide and Template in Custom folder.
 
 Lets start by requiring the module.
   
