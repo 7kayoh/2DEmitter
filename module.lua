@@ -253,6 +253,9 @@ function System.new(position)
 								for i,v in pairs(particleTween) do
 									v:Play()
 									v.Completed:Wait()
+									if i == #particleTween then
+										delay(.1,function() particleElement:Destroy() end)
+									end
 								end
 							end)
 						else
@@ -270,4 +273,4 @@ function System.new(position)
 	return items
 end
 
-return
+return System
